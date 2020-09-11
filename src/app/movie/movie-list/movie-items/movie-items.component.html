@@ -1,0 +1,18 @@
+
+<div class="col-sm-4 item shadow-lg p-3 mb-5 bg-white rounded">
+    <a 
+        style="cursor: pointer;" 
+        class="list-group-item clearfix" 
+        (click)='activateIt()'
+        routerLinkActive='active'
+        [routerLink]="[index]">
+        <span>
+            <img [src]='path' style="max-height: 15rem">
+        </span>
+        <div>
+            <h3 class="list-group-item-content text ">{{title}}</h3>
+            <!-- <p class="list-group-item-text">{{movie.overview}}</p> -->
+        </div>
+      
+    </a>
+</div>

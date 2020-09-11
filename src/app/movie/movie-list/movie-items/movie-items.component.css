@@ -1,0 +1,19 @@
+.item{
+    margin:1rem;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: -6px 10px 11px #888888;
+    
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.text{
+    font-size: medium;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    background-color: #546d71b5;
+    color: #fffefe;
+}

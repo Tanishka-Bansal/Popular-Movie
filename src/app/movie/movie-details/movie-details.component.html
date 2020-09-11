@@ -1,0 +1,30 @@
+<div class="center"> 
+
+<div class="backdrop"></div>
+
+<div class="alert-block">
+
+<div class="row">
+	<div class="col-xs-12">
+		<img [src]="path">	
+	</div>
+</div>
+<hr>
+<div class="row">
+	<div class="col-xs-12">
+		<h3>{{movie.original_title}}</h3>
+    </div>
+</div>    
+
+<div class="row">
+	<div class="col-xs-12">
+	{{movie.overview}}
+	</div>
+</div>
+
+<div>
+    <button class="btn btn-primary pull-right" (click)='closeIt()'>X</button>
+</div>  
+
+</div>
+</div>
